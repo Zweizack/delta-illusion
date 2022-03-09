@@ -11,18 +11,18 @@
 
 ## Install and Usage
 
-```bash
+```
 $ git clone https://github.com/Zweizack/delta-illusion.git
 ```
 
-```bash
+```
 $ cd delta-illusion/
 ```
 
-```bash
+```
 $ chmod +x delta-illusion.go
 ```
 
-```bash
+```
 $ go run delta-illusion.go
 ```
