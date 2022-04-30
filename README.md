@@ -1,6 +1,6 @@
 ## delta-illusion :magic_wand:
 
-### delta-illusion is a tool to get 64 passwords with 1(0.5 + 0.5) password.
+### delta-illusion is a tool to get passwords with 1(0.5 + 0.5) password.
 
 - :shield: After specifying the password you want to use, you can save the results somewhere if you want. but I don't recommend it, instead it will be more helpful and "safe" if you just keep in mind the "number" of the result.
 - :pill: Example: `x@protonmail.com = 17`
