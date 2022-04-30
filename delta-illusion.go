@@ -9,7 +9,6 @@ import (
   "os"
   "os/exec"
   "strings"
-
   "github.com/fatih/color"
 )
 
@@ -57,10 +56,13 @@ func main() {
 
   δ := Input("δpq: ")
   Δ := Input("Δpq: ")
-
+  sigma := color.New(color.FgGreen, color.Bold)
+  sigma.Printf("Σpq: ")
+  var Σ int
+  fmt.Scanf("%d", &Σ)
   Line()
 
-  for i := 0; i < 64; i++ {
+  for i := 0; i < Σ; i++ {
     δ = Encryption(δ)
     fmt.Printf("[%v]:\t%v\n", green(i), yellow(δ[:0x11], Δ))
   }
